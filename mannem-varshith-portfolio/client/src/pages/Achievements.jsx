@@ -119,26 +119,10 @@ const Achievements = () => {
           <p className="text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto">
             I'm always looking for new opportunities to grow, learn, and contribute to meaningful projects. Let's work together!
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
-              className="btn-primary inline-flex items-center justify-center"
-            >
-              Get In Touch
-            </a>
-            
-            <a
-              href="/projects"
-              className="btn-secondary inline-flex items-center justify-center"
-            >
-              View My Work
-            </a>
-          </div>
         </motion.div>
       </div>
     </section>
   )
 }
 
-export default Achievements 
+export default Achievements

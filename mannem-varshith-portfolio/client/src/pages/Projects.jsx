@@ -78,13 +78,6 @@ const Projects = () => {
               </svg>
               View All Projects
             </a>
-            
-            <a
-              href="/contact"
-              className="btn-secondary inline-flex items-center justify-center"
-            >
-              Let's Collaborate
-            </a>
           </div>
         </motion.div>
       </div>
@@ -92,4 +85,4 @@ const Projects = () => {
   )
 }
 
-export default Projects 
+export default Projects
