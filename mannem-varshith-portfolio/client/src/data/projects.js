@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "AgriConnect",
-    description: "AI-powered crop recommendations, marketplace, real-time chat, weather/location APIs.",
+    description: "AI-powered crop recommendations, marketplace, real-time chat, weather/location APIs.(SAP Hackfest 2025 final project)",
     techStack: ["AI/ML", "React", "Node.js", "MongoDB", "APIs"],
     githubLink: "https://github.com/Mannem-Varshith/Agri-Connect",
     image: "/project-agriconnect.jpg",
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Freelancing Platform",
     description: "Marketplace for freelancers and clients, secure authentication, responsive UI.",
-    techStack: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    techStack: ["HTML", "CSS", "JavaScript", "PHP"],
     githubLink: "https://github.com/Mannem-Varshith/Free_lancing",
     image: "/project-freelancing.jpg",
     featured: true
