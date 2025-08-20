@@ -6,8 +6,6 @@ const skills = [
       { name: "Java", icon: "☕" },
       { name: "Python", icon: "🐍" },
       { name: "PHP", icon: "🐘" },
-      { name: "HTML", icon: "🌐" },
-      { name: "CSS", icon: "🎨" },
       { name: "JavaScript", icon: "⚡" }
     ]
   },
@@ -16,7 +14,6 @@ const skills = [
     skills: [
       { name: "HTML", icon: "🌐" },
       { name: "CSS", icon: "🎨" },
-      { name: "JavaScript", icon: "⚡" },
       { name: "Bootstrap", icon: "🎯" }
     ]
   },
