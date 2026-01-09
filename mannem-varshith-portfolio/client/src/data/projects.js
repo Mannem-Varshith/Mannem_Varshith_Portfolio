@@ -1,26 +1,26 @@
 const projects = [
   {
+    title: "AttendEase Employee Attendance Management System",
+    description: "Built production-grade full-stack attendance system with JWT authentication. Implemented RBAC and automated business rules.",
+    techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    githubLink: "https://github.com/Mannem-Varshith/Attendanceapp",
+    image: "/project-attendance.jpg",
+    featured: true
+  },
+  {
     title: "AgriConnect",
-    description: "AI-powered crop recommendations, marketplace, real-time chat, weather/location APIs.(SAP Hackfest 2025 final project)",
-    techStack: ["AI/ML", "React", "Node.js", "MongoDB", "APIs"],
+    description: "Developed AI-driven crop recommendation platform with secure backend APIs. SAP Hackfest 2025 Finalist.",
+    techStack: ["Node.js", "React", "MongoDB", "Streamlit"],
     githubLink: "https://github.com/Mannem-Varshith/Agri-Connect",
     image: "/project-agriconnect.jpg",
     featured: true
   },
   {
     title: "Freelancing Platform",
-    description: "Marketplace for freelancers and clients, secure authentication, responsive UI.",
-    techStack: ["HTML", "CSS", "JavaScript", "PHP"],
+    description: "Built client-freelancer marketplace with authentication and bidding workflows. Implemented secure session handling and optimized database queries.",
+    techStack: ["PHP", "MySQL"],
     githubLink: "https://github.com/Mannem-Varshith/Free_lancing",
     image: "/project-freelancing.jpg",
-    featured: true
-  },
-  {
-    title: "Attendance Management System",
-    description: "Faculty portal for managing attendance with real-time updates.",
-    techStack: ["PHP", "MySQL", "AJAX", "Bootstrap", "JavaScript"],
-    githubLink: "https://github.com/Mannem-Varshith/Attendanceapp",
-    image: "/project-attendance.jpg",
     featured: true
   }
 ];

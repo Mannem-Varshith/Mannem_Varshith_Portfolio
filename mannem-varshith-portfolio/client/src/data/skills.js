@@ -2,38 +2,45 @@ const skills = [
   {
     category: "Programming Languages",
     skills: [
-      { name: "C", icon: "💻" },
       { name: "Java", icon: "☕" },
       { name: "Python", icon: "🐍" },
-      { name: "PHP", icon: "🐘" },
+      { name: "C", icon: "💻" },
       { name: "JavaScript", icon: "⚡" }
     ]
   },
   {
-    category: "Web Technologies",
+    category: "Frontend",
     skills: [
-      { name: "HTML", icon: "🌐" },
-      { name: "CSS", icon: "🎨" },
-      { name: "Bootstrap", icon: "🎯" }
+      { name: "React.js", icon: "⚛️" },
+      { name: "HTML5", icon: "🌐" },
+      { name: "CSS3", icon: "🎨" },
+      { name: "Tailwind CSS", icon: "🎯" }
+    ]
+  },
+  {
+    category: "Backend",
+    skills: [
+      { name: "Express.js", icon: "🚀" },
+      { name: "REST APIs", icon: "🔌" },
+      { name: "JWT Authentication", icon: "🔐" },
+      { name: "RBAC", icon: "👥" }
     ]
   },
   {
     category: "Databases",
     skills: [
-      { name: "MySQL", icon: "🗄️" },
-      { name: "SQL", icon: "📊" },
-      { name: "MongoDB", icon: "🍃" }
+      { name: "MongoDB", icon: "🍃" },
+      { name: "MySQL", icon: "🗄️" }
     ]
   },
   {
-    category: "Developer Tools",
+    category: "Core CS",
     skills: [
-      { name: "Git", icon: "📝" },
-      { name: "GitHub", icon: "🐙" },
-      { name: "VS Code", icon: "💻" },
-      { name: "IntelliJ IDEA", icon: "🚀" },
-      { name: "Anaconda", icon: "🐍" },
-      { name: "Eclipse", icon: "🌙" }
+      { name: "DSA", icon: "📊" },
+      { name: "OOP", icon: "🎯" },
+      { name: "DBMS", icon: "💾" },
+      { name: "OS", icon: "🖥️" },
+      { name: "CN", icon: "🌐" }
     ]
   }
 ];

@@ -55,7 +55,7 @@ const About = () => {
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed mb-6">
               {profile.about}
             </p>
-            
+
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-3 h-3 bg-primary-500 rounded-full"></div>
@@ -100,7 +100,7 @@ const About = () => {
                 LeetCode Problems Solved
               </div>
             </div>
-            
+
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
               <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
                 3
@@ -109,7 +109,7 @@ const About = () => {
                 Featured Projects
               </div>
             </div>
-            
+
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
               <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
                 7+
@@ -118,7 +118,7 @@ const About = () => {
                 Programming Languages
               </div>
             </div>
-            
+
             <div className="text-center p-6 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
               <div className="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">
                 2

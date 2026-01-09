@@ -10,6 +10,8 @@ const mapEndpointToLocal = (endpoint) => {
       return import('../data/profile').then(m => m.default)
     case '/api/skills':
       return import('../data/skills').then(m => m.default)
+    case '/api/experience':
+      return import('../data/experience').then(m => m.default)
     case '/api/projects':
       return import('../data/projects').then(m => m.default)
     case '/api/achievements':

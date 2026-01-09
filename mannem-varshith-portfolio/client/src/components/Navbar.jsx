@@ -11,6 +11,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Skills', path: '/skills' },
+    { name: 'Experience', path: '/experience' },
     { name: 'Projects', path: '/projects' },
     { name: 'Achievements', path: '/achievements' },
     { name: 'Contact', path: '/contact' }
@@ -36,11 +37,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               <Link
                 key={item.name}
                 to={item.path}
-                className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                  isActive(item.path)
+                className={`relative px-3 py-2 text-sm font-medium transition-colors duration-200 ${isActive(item.path)
                     ? 'text-primary-600 dark:text-primary-400'
                     : 'text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400'
-                }`}
+                  }`}
               >
                 {item.name}
                 {isActive(item.path) && (
@@ -89,11 +89,10 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
                   key={item.name}
                   to={item.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${
-                    isActive(item.path)
+                  className={`block px-4 py-2 text-sm font-medium rounded-lg transition-colors duration-200 ${isActive(item.path)
                       ? 'bg-primary-100 dark:bg-primary-900 text-primary-600 dark:text-primary-400'
                       : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>

@@ -1,8 +1,8 @@
 const profile = {
   name: "Mannem Varshith",
-  tagline: "Computer Science Student & Aspiring Software Developer",
+  tagline: "Backend-oriented Full Stack Engineer",
   location: "Tirupati, Andhra Pradesh, India",
-  about: "A highly motivated Computer Science student with a strong foundation in data structures, algorithms, and programming. Passionate about utilizing emerging technologies to develop innovative solutions for real-world challenges. Eager to contribute to impactful projects, continuously learn, and excel in dynamic, collaborative environments.",
+  about: "Backend-oriented Full Stack Engineer experienced in building scalable, secure, and cloud-ready applications using Node.js, React, and MongoDB. Strong background in REST API design, role-based access control, business rule implementation, performance optimization, and modern DevOps practices.",
   photo: "/photo.jpg",
   resume: "/resume.pdf"
 };
